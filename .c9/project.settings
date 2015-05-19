@@ -32,6 +32,7 @@
                 "Test": {
                     "command": "./run-java Question",
                     "debug": true,
+                    "default": true,
                     "name": "Test",
                     "runner": "Shell command"
                 }
