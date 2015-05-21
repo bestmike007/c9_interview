@@ -1,0 +1,5 @@
+#!/bin/bash
+[ -d node_modules ] || ( npm install mocha expect.js )
+rm .c9/project.settings
+cp project.settings .c9/project.settings
+mocha

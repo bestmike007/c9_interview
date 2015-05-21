@@ -32,6 +32,7 @@
                 "Test": {
                     "command": "mocha",
                     "debug": true,
+                    "default": true,
                     "name": "Test",
                     "runner": "Shell command"
                 }
