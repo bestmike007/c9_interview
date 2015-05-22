@@ -1,2 +1,2 @@
 #!/bin/bash
-javac $1.java && java -ea $1; rm -f *.class
+javac $1.java && time java -ea $1; rm -f *.class
